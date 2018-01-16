@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Erp Admin</string>
+
+    <!--server messages-->
+    <string name="error_server_no_response">No response</string>
+    <string name="error_server_400bad_request">Sorry! Bad data</string>
+    <string name="error_server_401unaunthorized">Sorry! You\'re not authorized for this</string>
+    <string name="error_server_403forbidden">Sorry! You\'re not allowed to take this action</string>
+    <string name="error_server_405forbidden">Sorry! Action not allowed</string>
+    <string name="error_server_500internal_error">Sorry! Server internal error</string>
+    <string name="error_server_503unavailable">Sorry! Service unavailable</string>
+    <string name="error_general">Sorry! Something went wrong</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -11,4 +22,5 @@
     <string name="hint_confirm_password">Confirm password..</string>
     <string name="hint_enter_password">Enter password..</string>
     <string name="hint_enter_email">Enter email..</string>
+    <string name="msg_no_internet">No internet connection!</string>
 </resources>
