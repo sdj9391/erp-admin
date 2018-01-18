@@ -43,7 +43,7 @@ import retrofit2.Response;
  * Created by jaydeepw on 11/8/16.
  */
 
-public class Utils {
+public class CommonUtils {
 
     private static final int SECOND_MILLIS = 1000;
     private static final int MINUTE_MILLIS = 60 * SECOND_MILLIS;
@@ -346,7 +346,7 @@ public class Utils {
         // Set up the input
         final EditText input = (EditText) viewInflated.findViewById(R.id.input);
 
-        if (!Utils.isEmpty(prefilText)) {
+        if (!CommonUtils.isEmpty(prefilText)) {
             input.setText(prefilText);
             input.setSelection(prefilText.length());
         }

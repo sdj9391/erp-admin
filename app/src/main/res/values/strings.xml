@@ -23,4 +23,10 @@
     <string name="hint_enter_password">Enter password..</string>
     <string name="hint_enter_email">Enter email..</string>
     <string name="msg_no_internet">No internet connection!</string>
+    <string name="msg_email_empty">Email can\'t be empty!</string>
+    <string name="msg_valid_email">Enter valid email!</string>
+    <string name="msg_passwod_empty">Password can\'t be empty!</string>
+    <string name="msg_password_valid">Password should be grater than 6 and less then 15 characters!</string>
+    <string name="msg_confirm_password_empty">Confirm password can\'t be empty!</string>
+    <string name="msg_mismatched_confirm_password">Not matched with password, check and re-enter!</string>
 </resources>
