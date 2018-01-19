@@ -43,3 +43,5 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.9.1'
     implementation 'com.android.support:exifinterface:27.0.2'
 }
+
+apply plugin: 'com.google.gms.google-services'

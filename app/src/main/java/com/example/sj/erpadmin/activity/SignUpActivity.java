@@ -1,8 +1,7 @@
 package com.example.sj.erpadmin.activity;
 
-import android.os.PatternMatcher;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -64,11 +63,11 @@ public class SignUpActivity extends AppCompatActivity {
                 return;
             }
 
-            registerUser();
+            registerUser(email, password);
         }
     };
 
-    private void registerUser() {
+    private void registerUser(String email, String password) {
 
     }
 
