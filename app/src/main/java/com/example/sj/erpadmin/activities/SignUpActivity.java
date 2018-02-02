@@ -1,4 +1,4 @@
-package com.example.sj.erpadmin.activity;
+package com.example.sj.erpadmin.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
